@@ -26,7 +26,7 @@ A fun and addictive space shooter game built with vanilla JavaScript, HTML5 Canv
 
 ## 🚀 Live Demo
 
-[Play the game here!](#) *(Link will be added after deployment)*
+**[Play the game here!](https://chewingbytes.github.io/cosmic-shooter/)**
 
 ## 💻 Technologies Used
 
