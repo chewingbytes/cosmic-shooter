@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Shooter - A Space Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>🚀 COSMIC SHOOTER 🚀</h1>
+            <div class="stats">
+                <div class="stat">Score: <span id="score">0</span></div>
+                <div class="stat">Lives: <span id="lives">3</span></div>
+                <div class="stat">Level: <span id="level">1</span></div>
+            </div>
+        </div>
+        
+        <canvas id="gameCanvas"></canvas>
+        
+        <div id="gameOver" class="modal hidden">
+            <div class="modal-content">
+                <h2>GAME OVER</h2>
+                <p>Final Score: <span id="finalScore">0</span></p>
+                <button id="restartBtn" class="btn">Play Again</button>
+            </div>
+        </div>
+        
+        <div id="startScreen" class="modal">
+            <div class="modal-content">
+                <h2>🎮 COSMIC SHOOTER 🎮</h2>
+                <p>Defend Earth from alien invaders!</p>
+                <div class="controls-info">
+                    <p><strong>Controls:</strong></p>
+                    <p>← → Arrow Keys or A/D - Move</p>
+                    <p>SPACE - Shoot</p>
+                </div>
+                <button id="startBtn" class="btn">Start Game</button>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <p>Use Arrow Keys or A/D to move, SPACE to shoot</p>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
